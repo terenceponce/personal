@@ -3,8 +3,10 @@ title   = "Terence Ponce's Website"
 
 DefaultContentLanguage = "en"
 
+theme = "hermit"
+
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+pygmentsUseClasses  = true
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
@@ -43,7 +45,6 @@ disableHugoGeneratorInject = false
 
 [taxonomies]
   tag      = "tags"
-  category = ""
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -58,26 +59,10 @@ disableHugoGeneratorInject = false
 
   homeSubtitle = "Ruby | Elixir | React | React Native | Flutter | Blockchain | DevOps"
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = ""
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = false  # Set "text-align: justify" to .content.
 
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#252627"
-
-  [params.logo]
-    logoText     = "cd /terenceponce/"
-    logoHomeLink = "/"
+  themeColor = "#494f5c"
 
   # Social icons
   [[params.social]]
@@ -96,18 +81,12 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/terenceponce"
 
-[languages]
-  [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
+    name = "About"
+    url = "about/"
+    weight = 10
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
+    name = "Posts"
+    url= "posts/"
+    weight = 20
