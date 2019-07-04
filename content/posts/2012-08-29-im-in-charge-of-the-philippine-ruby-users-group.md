@@ -6,7 +6,7 @@ toc: false
 images:
 tags:
   - personal
-  - musings
+  - community
 ---
 
 It's been a couple of days since the recent PhRUG August meetup. It was the first ever meetup that I have organized as the new boss for the Philippine Ruby Users Group. This post isn't about bragging. I just wanted to share how my journey with Ruby has been very surreal to me.
