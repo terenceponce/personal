@@ -1,4 +1,4 @@
-image: registry.gitlab.com/pages/hugo:latest
+image: jguyomard/hugo-builder:extras
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
