@@ -1,4 +1,4 @@
-image: jguyomard/hugo-builder:extras
+image: dettmering/hugo-build:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
