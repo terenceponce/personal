@@ -298,7 +298,7 @@ Let's look at `AuthenticationService`:
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:rarex/state/authentication_state.dart';
+import 'package:my_app/state/authentication_state.dart';
 
 class AuthenticationService {
   AuthenticationService({
