@@ -409,4 +409,4 @@ In conclusion, let's summarize the things we talked about in this post:
 - Widgets should only have read access to the state. Mutation should only be done by service classes.
 - If a widget wishes to do any mutation (state or business logic), they should call a service class method (`AuthenticationService.signIn`)
 
-Thanks for reading!
+I'll be creating another post in the future to further expand on the examples that I gave. Thanks for reading!
