@@ -20,7 +20,7 @@ params:
   # title: ExampleSite
   description: "Personal Website of Terence Ponce"
   keywords: ["Terence", "Ponce"]
-  author: Me
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
